@@ -1,0 +1,57 @@
+# Faculty Products — Team OS
+
+A worked example of a **Team OS** for a fictional company called Faculty Products. Companion to the [Claude Code for Orgs](https://fullstackpm.com/teamos) workshop.
+
+## What this is
+
+A populated example of how a real product team's shared workflow layer might look. Browse the folders to see how the four buckets — **Context, Actions, Behavior, Connections** — show up in practice.
+
+```
+.
+├── CLAUDE.md                  # the lean root — the index, not the content
+├── customers/                 # CONTEXT: customer calls, summaries, playbooks
+├── analytics/                 # CONTEXT: metric definitions, queries, playbooks
+├── templates/                 # CONTEXT: PRD, status update, RFC structures
+└── .claude/
+    ├── skills/                # ACTIONS: shared workflows (slash commands)
+    └── rules/                 # BEHAVIOR: file naming, prioritization, etc.
+```
+
+## How to use it
+
+**Browse first.** Open these in order to see how a Team OS is wired:
+
+1. `CLAUDE.md` — the lean root file (under one page, with team roster + Slack channels)
+2. `customers/CLAUDE.md` — example of a nested CLAUDE.md as a navigation map
+3. `customers/account-summaries/acme-q1-2026.md` — what captured customer knowledge looks like
+4. `.claude/skills/exec-preso-prep/SKILL.md` — what a skill file looks like
+5. `.claude/rules/prioritization.md` — what a team rule looks like
+
+**Then clone it and adapt.** Replace the FP-specific content with yours. The structure is the load-bearing thing.
+
+```bash
+git clone https://github.com/carlvellotti/faculty-products-team-os.git my-team-os
+cd my-team-os
+# Edit CLAUDE.md with your team's roster + channels
+# Replace the customer summaries with your accounts
+# Replace the metric definitions with your metrics
+# Keep the skills + rules structure, add your own
+```
+
+## Where the workshop fits
+
+This repo is the example. The [/teamos page](https://fullstackpm.com/teamos) walks through it — what each piece is, why it's structured this way, and how the four buckets compose into a flow when you actually use it.
+
+For the live workshop on **April 29, 2026**, this is the repo we walk through on screen.
+
+## Companion
+
+- [Blank Team OS starter](https://github.com/carlvellotti/team-os-starter) — same structure, no FP content. Drop your team in.
+
+## Contributing
+
+This is a teaching example, not a living product. Pull requests welcome if you spot bugs or want to suggest improvements — see `CONTRIBUTING.md`.
+
+---
+
+Built by [Carl Vellotti](https://fullstackpm.com).
