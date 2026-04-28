@@ -1,4 +1,4 @@
-# Faculty Products — Team OS
+# Faculty Products — Org OS
 
 This repo is the team's shared workflow layer. If you're new, start here.
 

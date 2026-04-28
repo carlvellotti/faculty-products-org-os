@@ -1,6 +1,6 @@
 # Contributing
 
-This is a teaching example, but the contribution flow mirrors how a real Team OS would work. If you spot bugs or want to suggest improvements:
+This is a teaching example, but the contribution flow mirrors how a real Org OS would work. If you spot bugs or want to suggest improvements:
 
 ## How to contribute
 

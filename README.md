@@ -1,6 +1,6 @@
-# Faculty Products — Team OS
+# Faculty Products — Org OS
 
-A worked example of a **Team OS** for a fictional company called Faculty Products. Companion to the [Claude Code for Orgs](https://fullstackpm.com/teamos) workshop.
+A worked example of a **Org OS** for a fictional company called Faculty Products. Companion to the [Claude Code for Orgs](https://fullstackpm.com/orgos) workshop.
 
 ## What this is
 
@@ -19,7 +19,7 @@ A populated example of how a real product team's shared workflow layer might loo
 
 ## How to use it
 
-**Browse first.** Open these in order to see how a Team OS is wired:
+**Browse first.** Open these in order to see how a Org OS is wired:
 
 1. `CLAUDE.md` — the lean root file (under one page, with team roster + Slack channels)
 2. `customers/CLAUDE.md` — example of a nested CLAUDE.md as a navigation map
@@ -30,8 +30,8 @@ A populated example of how a real product team's shared workflow layer might loo
 **Then clone it and adapt.** Replace the FP-specific content with yours. The structure is the load-bearing thing.
 
 ```bash
-git clone https://github.com/carlvellotti/faculty-products-team-os.git my-team-os
-cd my-team-os
+git clone https://github.com/carlvellotti/faculty-products-org-os.git my-org-os
+cd my-org-os
 # Edit CLAUDE.md with your team's roster + channels
 # Replace the customer summaries with your accounts
 # Replace the metric definitions with your metrics
@@ -40,13 +40,13 @@ cd my-team-os
 
 ## Where the workshop fits
 
-This repo is the example. The [/teamos page](https://fullstackpm.com/teamos) walks through it — what each piece is, why it's structured this way, and how the four buckets compose into a flow when you actually use it.
+This repo is the example. The [/orgos page](https://fullstackpm.com/orgos) walks through it — what each piece is, why it's structured this way, and how the four buckets compose into a flow when you actually use it.
 
 For the live workshop on **April 29, 2026**, this is the repo we walk through on screen.
 
 ## Companion
 
-- [Blank Team OS starter](https://github.com/carlvellotti/team-os-starter) — same structure, no FP content. Drop your team in.
+- [Blank Org OS starter](https://github.com/carlvellotti/org-os-starter) — same structure, no FP content. Drop your team in.
 
 ## Contributing
 
