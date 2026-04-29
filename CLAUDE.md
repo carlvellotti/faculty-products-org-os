@@ -3,11 +3,14 @@
 This repo is the team's shared workflow layer. If you're new, start here.
 
 ## Where stuff lives
-- `/customers/`      — calls, summaries, account profiles
-- `/analytics/`      — metrics, queries, schemas, playbooks
-- `/templates/`      — PRDs, status updates, RFCs
-- `/.claude/skills/` — shared workflows (slash commands)
-- `/.claude/rules/`  — team standards (file naming, prioritization)
+- `/customers/`         — calls, summaries, account profiles
+- `/analytics/`         — metrics, queries, schemas, playbooks
+- `/analytics/metrics.md` — canonical metrics table (read by `/metrics-check`)
+- `/templates/`         — PRDs, status updates, RFCs
+- `/.claude/skills/`    — shared workflows (slash commands)
+- `/.claude/rules/`     — team standards (file naming, prioritization)
+- `/.claude/connections.md` — what this OS plugs into (Slack, GitHub, Snowflake, etc.)
+- `/.mcp.json`          — project-level MCP config (the underlying wiring)
 
 ## Team
 | Name   | Role             | Slack    | GitHub      |

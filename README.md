@@ -9,13 +9,20 @@ A populated example of how a real product team's shared workflow layer might loo
 ```
 .
 ├── CLAUDE.md                  # the lean root — the index, not the content
+├── .mcp.json                  # CONNECTIONS: project-level MCP config
+├── .env.example               # env vars the MCP config expects
 ├── customers/                 # CONTEXT: customer calls, summaries, playbooks
 ├── analytics/                 # CONTEXT: metric definitions, queries, playbooks
+│   └── metrics.md             # the canonical metrics table (read by /metrics-check)
 ├── templates/                 # CONTEXT: PRD, status update, RFC structures
 └── .claude/
+    ├── CLAUDE.md              # what's in this folder
+    ├── connections.md         # CONNECTIONS: human-readable list of plug-ins
     ├── skills/                # ACTIONS: shared workflows (slash commands)
     └── rules/                 # BEHAVIOR: file naming, prioritization, etc.
 ```
+
+Every subfolder also has its own `CLAUDE.md` — the navigation map for that folder. Root tells Claude where to look; nested files tell Claude what's inside.
 
 ## How to use it
 
@@ -25,7 +32,12 @@ A populated example of how a real product team's shared workflow layer might loo
 2. `customers/CLAUDE.md` — example of a nested CLAUDE.md as a navigation map
 3. `customers/account-summaries/acme-q1-2026.md` — what captured customer knowledge looks like
 4. `.claude/skills/exec-preso-prep/SKILL.md` — what a skill file looks like
-5. `.claude/rules/prioritization.md` — what a team rule looks like
+5. `.claude/skills/share-check/SKILL.md` — the gate skill that runs the 5 shareability rules
+6. `.claude/skills/metrics-check/SKILL.md` — answers "how do we measure X?" from the metrics table
+7. `.claude/skills/org-os-updates/SKILL.md` — weekly visibility post for `#org-os`
+8. `.claude/connections.md` — human-readable list of what this OS plugs into
+9. `analytics/metrics.md` — the canonical metrics table
+10. `.claude/rules/prioritization.md` — what a team rule looks like
 
 **Then clone it and adapt.** Replace the FP-specific content with yours. The structure is the load-bearing thing.
 
